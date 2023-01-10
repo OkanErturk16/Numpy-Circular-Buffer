@@ -1,8 +1,14 @@
 # Numpy-Circular-Buffer
 Circular buffer implementation for Python, Numpy.
 
+Numpy has very useful methods, yet, no buffer implementation is included.
+Especially for real-time processing applications, buffer-aided designs are of significant importance.
+Therefore, I share my circular buffer implementation written in Python, Numpy.
+The implementation is very simple and can be traced only by reading the code.
+
 The script numpyCircularBuffer.py includes the implementation of circular buffer class based on Numpy.
 An example usage of circular buffer class is given in mainExp.py 
+
 
 ```python
 import numpyCircularBuffer as ncb
